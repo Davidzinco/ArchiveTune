@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+        <?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="explore">Jelajahi</string>
     <string name="music_recognition_tap_to_listen">Ketuk untuk mendengarkan</string>
@@ -50,9 +50,9 @@
     <string name="local_songs_no_matches_desc">Coba lagu, artis, atau nama album lain.</string>
     <string name="sort_by_album">Album</string>
     <string name="remote_history">Online</string>
-    <string name="charts">Grafik</string>
+    <string name="charts">Tangga Lagu</string>
     <string name="back_button_desc">Kembali</string>
-    <string name="news">Berita Dari Pengembang</string>
+    <string name="news">Berita dari Pengembang</string>
     <string name="news_loading">Memuat berita…</string>
     <string name="news_empty_title">Belum ada apa pun di sini</string>
     <string name="news_empty_desc">Tidak ada pengumuman saat ini. Segera periksa kembali.</string>
@@ -72,9 +72,9 @@
     </plurals>
     <string name="no_title">Tidak ada judul</string>
     <string name="unknown_artist">Artis tidak dikenal</string>
-    <string name="aod_customize_title">Kustomisasi AOD</string>
+    <string name="aod_customize_title">Penyesuaian AOD</string>
     <string name="aod_customize_subtitle">Bentuk, tata letak, kontrol, dan gaya ambien</string>
-    <string name="aod_customize_entry_desc">Kustomisasi layar pemutar selalu aktif</string>
+    <string name="aod_customize_entry_desc">Penyesuaian layar pemutar selalu aktif</string>
     <string name="aod_customize_preview">Pratinjau langsung</string>
     <string name="aod_customize_visibility">Visibilitas</string>
     <string name="aod_customize_show_thumbnail">Tampilkan thumbnail</string>
@@ -155,7 +155,7 @@
     <string name="offline">Diunduh</string>
     <string name="my_top">Teratas Saya</string>
     <string name="cached_playlist">Tersimpan di Cache</string>
-    <string name="sync_playlist">Sinkronkan playlist</string>
+    <string name="sync_playlist">Sinkronkan daftar putar</string>
     <string name="sync_disabled">Sinkronisasi dinonaktifkan</string>
     <string name="allows_for_sync_witch_youtube">Catatan: Ini memungkinkan sinkronisasi dengan YouTube Music. Ini TIDAK dapat diubah nanti.</string>
     <string name="generating_image">Menghasilkan gambar</string>
@@ -171,9 +171,9 @@
     <string name="lyrics_share_layout_square">Persegi</string>
     <string name="lyrics_share_layout_portrait">Potret</string>
     <string name="lyrics_share_layout_story">Cerita</string>
-    <string name="lyrics_share_background_blur">Latar belakang blur</string>
+    <string name="lyrics_share_background_blur">Latar belakang buram</string>
     <string name="lyrics_share_background_blur_value">%1$d piksel</string>
-    <string name="lyrics_line_blur">Blur baris lirik</string>
+    <string name="lyrics_line_blur">Buram baris lirik</string>
     <string name="lyrics_share_background_dim">Latar belakang redup</string>
     <string name="lyrics_share_background_dim_value">%1$d%%</string>
     <string name="lyrics_share_show_cover">Tampilkan sampul album</string>
@@ -191,10 +191,10 @@
     <string name="choose_color">Pilih Warna</string>
     <string name="tap_to_change_color">Ketuk untuk mengubah warna</string>
     <string name="assign_tags">Tetapkan Tag</string>
-    <string name="assign_tags_to_playlists">Tetapkan ke playlist</string>
+    <string name="assign_tags_to_playlists">Tetapkan ke daftar putar</string>
     <string name="no_tags_available">Tidak ada tag yang tersedia. Buat terlebih dahulu.</string>
-    <string name="manage_playlist_tags">Tag Playlist</string>
-    <string name="manage_playlist_tags_desc">Buat dan kelola tag untuk mengatur playlist</string>
+    <string name="manage_playlist_tags">Tag Daftar putar</string>
+    <string name="manage_playlist_tags_desc">Buat dan kelola tag untuk mengatur daftar putar</string>
     <string name="like_all">Sukai semua</string>
     <string name="dislike_all">Batal sukai semua</string>
     <string name="sort_by_last_updated">Tanggal diperbarui</string>
@@ -211,7 +211,7 @@
     <string name="show_home_category_chips_desc">Tampilkan chip filter kategori di layar beranda</string>
     <string name="show_tags_in_library">Tampilkan tag di pustaka</string>
     <string name="show_tags_in_library_desc">Tampilkan chip filter tag di pustaka</string>
-    <string name="already_in_playlist">Sudah ada di playlist:</string>
+    <string name="already_in_playlist">Sudah ada di daftar putar:</string>
     <plurals name="n_element">
         <item quantity="other">%d elemen</item>
     </plurals>
@@ -235,9 +235,9 @@
     <string name="player_design_v7">Immersive</string>
     <string name="player_design_v8">Immersive Extended</string>
     <string name="player_design_v9">Material</string>
-    <string name="player_background_blur">Blur</string>
+    <string name="player_background_blur">Buram</string>
     <string name="coloring">Warnai</string>
-    <string name="blur_gradient">Blur Gradien</string>
+    <string name="blur_gradient">Buram Gradien</string>
     <string name="glow">Glow</string>
     <string name="player_buttons_style">Warna tombol pemutar</string>
     <string name="default_style">Bawaan</string>
@@ -264,7 +264,7 @@
     <string name="token_adv_login_description">Ini adalah metode login LANJUTAN. Sebagai alternatif dari portal web, Anda dapat langsung memasukkan atau memperbarui token login Anda di sini. Misalnya, ini dapat mempercepat login di beberapa perangkat. Harap dicatat bahwa format token tidak valid apa pun yang gagal diurai oleh aplikasi tidak akan diterima</string>
     <string name="yt_sync">Sinkron otomatis dengan akun</string>
     <string name="force_sync_on_switch_account">Paksa Sinkronisasi di Ganti Akun</string>
-    <string name="force_sync_on_switch_account_desc">Sinkronkan ulang playlist, lagu yang disukai, artis, dan album dari akun yang dipilih setelah beralih</string>
+    <string name="force_sync_on_switch_account_desc">Sinkronkan ulang daftar putar, lagu yang disukai, artis, dan album dari akun yang dipilih setelah beralih</string>
     <string name="more_content">Lebih banyak konten</string>
     <string name="general">Umum</string>
     <string name="proxy">Proksi</string>
@@ -277,9 +277,9 @@
     <string name="set_first_lyrics_provider">Penyedia lirik pilihan</string>
     <string name="audio_quality_max">Maks (beta)</string>
     <string name="percentage_format">%d%%</string>
-    <string name="import_online">Impor playlist \"m3u\"</string>
-    <string name="import_csv">Impor playlist \"csv\"</string>
-    <string name="playlist_add_local_to_synced_note">Catatan: Menambahkan lagu lokal ke playlist yang disinkronkan/jarak jauh tidak didukung. Kombinasi lainnya valid</string>
+    <string name="import_online">Impor daftar putar \"m3u\"</string>
+    <string name="import_csv">Impor daftar putar \"csv\"</string>
+    <string name="playlist_add_local_to_synced_note">Catatan: Menambahkan lagu lokal ke daftar putar yang disinkronkan/jarak jauh tidak didukung. Kombinasi lainnya valid</string>
     <string name="auto_download_on_like">Unduh otomatis saat disukai</string>
     <string name="auto_download_on_like_desc">Unduh lagu secara otomatis saat Anda menyukainya</string>
     <string name="swipe_sensitivity">Sensitivitas usap pemutar mini</string>
@@ -312,8 +312,8 @@
     <string name="dislikes">Tidak suka</string>
     <string name="subscribe">Berlangganan</string>
     <string name="subscribed">Berlangganan</string>
-    <string name="playlist_not_found">Playlist tidak ditemukan</string>
-    <string name="playlist_not_found_desc">Playlist yang diminta tidak dapat dimuat</string>
+    <string name="playlist_not_found">Daftar putar tidak ditemukan</string>
+    <string name="playlist_not_found_desc">Daftar putar yang diminta tidak dapat dimuat</string>
     <string name="album_not_found">Album tidak ditemukan</string>
     <string name="album_not_found_desc">Album yang diminta tidak dapat dimuat</string>
     <string name="new_releases">Rilisan Baru</string>
@@ -321,13 +321,13 @@
     <string name="singles">Single</string>
     <string name="ep">EP</string>
     <string name="no_releases_found">Tidak ada rilis yang ditemukan</string>
-    <string name="playlist_private_title">Playlist ini pribadi</string>
-    <string name="playlist_private_desc">Anda tidak memiliki akses ke playlist ini.</string>
-    <string name="empty_playlist">Playlist Kosong</string>
-    <string name="empty_playlist_desc">Playlist ini tidak berisi lagu apa pun</string>
+    <string name="playlist_private_title">Daftar putar ini pribadi</string>
+    <string name="playlist_private_desc">Anda tidak memiliki akses ke daftar putar ini.</string>
+    <string name="empty_playlist">Daftar putar Kosong</string>
+    <string name="empty_playlist_desc">Daftar putar ini tidak berisi lagu apa pun</string>
     <string name="android_auto_suggested_songs">Lagu yang disarankan</string>
     <string name="android_auto_mixes_and_radios">Mix dan radio</string>
-    <string name="android_auto_sort_playlist">Urutkan playlist</string>
+    <string name="android_auto_sort_playlist">Urutkan daftar putar</string>
     <string name="android_auto_sort_option_format">%1$s - %2$s</string>
     <string name="empty_album">Album Kosong</string>
     <string name="empty_album_desc">Album ini tidak berisi lagu apa pun</string>
@@ -406,10 +406,10 @@
     <string name="day_thu">Kam</string>
     <string name="day_fri">Jum</string>
     <string name="day_sat">Sab</string>
-    <string name="custom_theme">Tema Kustom</string>
+    <string name="custom_theme">Tema Khusus</string>
     <string name="import_theme">Impor Tema</string>
     <string name="export_theme">Ekspor Tema</string>
-    <string name="palette_custom">Kustom</string>
+    <string name="palette_custom">Khusus</string>
     <string name="theme_meta_title">Detail Tema</string>
     <string name="theme_name_optional">Nama (opsional)</string>
     <string name="theme_apply_button">Terapkan Tema</string>
@@ -438,7 +438,7 @@
     <string name="backup_options_title">Apa yang harus dicadangkan?</string>
     <string name="restore_options_title">Apa yang harus dipulihkan?</string>
     <string name="backup_category_library">Data Pustaka</string>
-    <string name="backup_category_library_desc">Playlist, lagu, riwayat &amp; artis</string>
+    <string name="backup_category_library_desc">Daftar putar, lagu, riwayat &amp; artis</string>
     <string name="backup_category_settings">Pengaturan Aplikasi</string>
     <string name="backup_category_settings_desc">Penampilan, pemutaran &amp; preferensi</string>
     <string name="backup_category_account">Detail Akun</string>
@@ -446,15 +446,15 @@
     <string name="internal_service">Layanan Internal</string>
     <string name="external_service">Layanan Eksternal</string>
     <string name="backup_create_backup_desc">Cadangkan pustaka, pengaturan, dan detail akun.</string>
-    <string name="import_m3u_format">Playlist audio M3U</string>
-    <string name="import_csv_format">File playlist CSV</string>
+    <string name="import_m3u_format">Daftar putar audio M3U</string>
+    <string name="import_csv_format">File daftar putar CSV</string>
     <string name="spotify_connect">Hubungkan Spotify</string>
     <string name="spotify_available_count">%1$d sumber tersedia</string>
     <string name="spotify_connected_as">Terhubung sebagai %1$s</string>
     <string name="spotify_not_connected">Spotify tidak terhubung</string>
     <string name="spotify_login_title">Login Spotify</string>
     <string name="spotify_loading_library">Memuat pustaka Spotify</string>
-    <string name="spotify_no_sources">Tidak ada playlist Spotify ditemukan</string>
+    <string name="spotify_no_sources">Tidak ada daftar putar Spotify ditemukan</string>
     <string name="spotify_account">Akun Spotify</string>
     <string name="spotify_waiting_for_login">Menunggu login Spotify</string>
     <string name="login_success">Berhasil masuk</string>
